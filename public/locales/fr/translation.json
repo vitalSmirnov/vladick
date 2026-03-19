@@ -1,0 +1,104 @@
+{
+  "common": {
+    "language": "Langue",
+    "english": "English",
+    "russian": "Русский",
+    "spanish": "Español",
+    "dutch": "Nederlands",
+    "german": "Deutsch",
+    "italian": "Italiano",
+    "french": "Français"
+  },
+  "header": {
+    "brand": "PLATY",
+    "nav": {
+      "pricing": "Tarifs",
+      "security": "Sécurité",
+      "referral": "Parrainage",
+      "faq": "FAQ"
+    },
+    "login": "Connexion"
+  },
+  "hero": {
+    "title": "Banque sans questions.",
+    "subtitle": "Cartes virtuelles instantanées pour le shopping mondial. Sans KYC, sans attente, sans limites.",
+    "cta": "Obtenir la carte pour $5"
+  },
+  "privacy": {
+    "title": "La fintech la plus sûre dans votre poche.",
+    "features": {
+      "zeroLogs": {
+        "title": "Zéro journal",
+        "description": "Nous ne conservons pas de journaux d'activité. Vos transactions sont votre vie privée. Point."
+      },
+      "emailOnly": {
+        "title": "Email uniquement",
+        "description": "Oubliez les photos avec votre passeport à la main. Nous avons besoin uniquement de votre email pour commencer."
+      },
+      "protection": {
+        "title": "Protection 24/7",
+        "description": "Notre support fonctionne sans jours de congé ni jours fériés, protégeant votre tranquillité."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Choisissez votre niveau",
+    "base": {
+      "name": "Base",
+      "subtitle": "Parfait pour un démarrage léger",
+      "price": "5",
+      "perIssue": "par émission",
+      "features": {
+        "limit": "Limite: 2 cartes",
+        "commission": "Frais de dépôt: 3,0%",
+        "fx": "Conversion (FX): 2,5%",
+        "monthlyFee": "Frais: $5 par mois (débité le 1er)"
+      },
+      "cta": "Choisir Base"
+    },
+    "middle": {
+      "name": "Middle Game",
+      "subtitle": "Pour ceux qui jouent gros",
+      "price": "20",
+      "perIssue": "par émission",
+      "recommended": "Recommandé",
+      "features": {
+        "limit": "Limite: 10 cartes",
+        "commission": "Maintenance: $0 / mois",
+        "fx": "Frais de dépôt: 2,7%",
+        "conversion": "Conversion (FX): 2,5%"
+      },
+      "cta": "Choisir Middle"
+    }
+  },
+  "referral": {
+    "title": "Club des Gentilshommes",
+    "subtitle": "Les bonnes nouvelles se répandent vite. Invitez des amis et obtenez 0,5% de chacun de leurs dépôts directement sur votre portefeuille Platy.",
+    "cta": "Obtenir le lien"
+  },
+  "faq": {
+    "title": "Questions et Réponses",
+    "items": {
+      "q1": "Combien de temps pour recevoir la carte?",
+      "a1": "Instantanément après la création du compte.",
+      "q2": "Quelles sont les limites?",
+      "a2": "Nous utilisons les limites originales du fournisseur sans les réduire.",
+      "q3": "Où les cartes fonctionnent-elles?",
+      "a3": "Partout où les systèmes de paiement internationaux sont acceptés.",
+      "q4": "Vous ne stockez vraiment pas les données?",
+      "a4": "Notre architecture est construite sur le principe de l'anonymat total. Nous ne savons rien de vous sauf votre email."
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 PapasPay. Tous droits réservés.",
+    "links": {
+      "telegram": "Support Telegram",
+      "twitter": "Twitter",
+      "tos": "Conditions d'utilisation"
+    },
+    "status": {
+      "protected": "Système: Protégé",
+      "disabled": "Journaux: Désactivés"
+    }
+  }
+}

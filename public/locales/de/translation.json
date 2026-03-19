@@ -1,0 +1,104 @@
+{
+  "common": {
+    "language": "Sprache",
+    "english": "English",
+    "russian": "Русский",
+    "spanish": "Español",
+    "dutch": "Nederlands",
+    "german": "Deutsch",
+    "italian": "Italiano",
+    "french": "Français"
+  },
+  "header": {
+    "brand": "PLATY",
+    "nav": {
+      "pricing": "Preise",
+      "security": "Sicherheit",
+      "referral": "Empfehlungsprogramm",
+      "faq": "FAQ"
+    },
+    "login": "Anmelden"
+  },
+  "hero": {
+    "title": "Banking ohne Fragen.",
+    "subtitle": "Instant virtuelle Karten für globales Shopping. Ohne KYC, ohne Warten, ohne Grenzen.",
+    "cta": "Karte für $5 erhalten"
+  },
+  "privacy": {
+    "title": "Die sicherste Fintech in deiner Tasche.",
+    "features": {
+      "zeroLogs": {
+        "title": "Null Logs",
+        "description": "Wir führen keine Aktivitätsprotokolle. Deine Transaktionen sind dein Privatleben. Punkt."
+      },
+      "emailOnly": {
+        "title": "Nur E-Mail",
+        "description": "Vergiss Fotos mit deinem Reisepass in der Hand. Wir benötigen nur deine E-Mail-Adresse, um zu beginnen."
+      },
+      "protection": {
+        "title": "24/7 Schutz",
+        "description": "Unser Support arbeitet ohne Wochenenden oder Feiertage und schützt deinen Frieden."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Wähle dein Level",
+    "base": {
+      "name": "Base",
+      "subtitle": "Perfekt für einen leichten Start",
+      "price": "5",
+      "perIssue": "pro Ausgabe",
+      "features": {
+        "limit": "Limit: 2 Karten",
+        "commission": "Einzahlungsgebühr: 3,0%",
+        "fx": "Umwandlung (FX): 2,5%",
+        "monthlyFee": "Gebühr: $5 pro Monat (debittiert am 1.)"
+      },
+      "cta": "Base wählen"
+    },
+    "middle": {
+      "name": "Middle Game",
+      "subtitle": "Für die, die groß spielen",
+      "price": "20",
+      "perIssue": "pro Ausgabe",
+      "recommended": "Empfohlen",
+      "features": {
+        "limit": "Limit: 10 Karten",
+        "commission": "Wartung: $0 / Monat",
+        "fx": "Einzahlungsgebühr: 2,7%",
+        "conversion": "Umwandlung (FX): 2,5%"
+      },
+      "cta": "Middle wählen"
+    }
+  },
+  "referral": {
+    "title": "Herrenclub",
+    "subtitle": "Gute Nachrichten verbreiten sich schnell. Lade Freunde ein und erhalte 0,5% von jeder ihrer Einzahlungen direkt auf dein Platy-Portemonnaie.",
+    "cta": "Link abrufen"
+  },
+  "faq": {
+    "title": "Fragen und Antworten",
+    "items": {
+      "q1": "Wie schnell bekomme ich die Karte?",
+      "a1": "Sofort nach der Kontoerstellung.",
+      "q2": "Was sind die Limits?",
+      "a2": "Wir verwenden die ursprünglichen Anbieterlimitrierungen ohne Kürzungen.",
+      "q3": "Wo funktionieren die Karten?",
+      "a3": "Überall dort, wo internationale Zahlungssysteme akzeptiert werden.",
+      "q4": "Speichert ihr wirklich keine Daten?",
+      "a4": "Unsere Architektur basiert auf dem Prinzip der vollständigen Anonymität. Wir wissen nichts über dich außer deiner E-Mail."
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 PapasPay. Alle Rechte vorbehalten.",
+    "links": {
+      "telegram": "Telegram-Unterstützung",
+      "twitter": "Twitter",
+      "tos": "Nutzungsbedingungen"
+    },
+    "status": {
+      "protected": "System: Geschützt",
+      "disabled": "Logs: Deaktiviert"
+    }
+  }
+}

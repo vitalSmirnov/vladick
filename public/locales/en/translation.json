@@ -1,0 +1,100 @@
+{
+  "common": {
+    "language": "Language",
+    "english": "English",
+    "russian": "Русский",
+    "spanish": "Español"
+  },
+  "header": {
+    "brand": "PLATY",
+    "nav": {
+      "pricing": "Pricing",
+      "security": "Security",
+      "referral": "Referral",
+      "faq": "FAQ"
+    },
+    "login": "Log In"
+  },
+  "hero": {
+    "title": "Banking that doesn't ask questions.",
+    "subtitle": "Instant virtual cards for global shopping. Without KYC, without waiting, without borders.",
+    "cta": "Get card for $5"
+  },
+  "privacy": {
+    "title": "The safest fintech in your pocket.",
+    "features": {
+      "zeroLogs": {
+        "title": "Zero Logs",
+        "description": "We don't keep activity logs. Your transactions are your private life. Period."
+      },
+      "emailOnly": {
+        "title": "Email Only",
+        "description": "Forget about photos with your passport in hand. We only need your email to get started."
+      },
+      "protection": {
+        "title": "24/7 Protection",
+        "description": "Our support works without days off or holidays, protecting your peace of mind."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Choose your level",
+    "base": {
+      "name": "Base",
+      "subtitle": "Perfect for a light start",
+      "price": "5",
+      "perIssue": "per issue",
+      "features": {
+        "limit": "Limit: 2 cards",
+        "commission": "Deposit fee: 3.0%",
+        "fx": "Conversion (FX): 2.5%",
+        "monthlyFee": "Fee: $5 per month (charged on the 1st)"
+      },
+      "cta": "Choose Base"
+    },
+    "middle": {
+      "name": "Middle Game",
+      "subtitle": "For those who play big",
+      "price": "20",
+      "perIssue": "per issue",
+      "recommended": "Recommended",
+      "features": {
+        "limit": "Limit: 10 cards",
+        "commission": "Maintenance: $0 / month",
+        "fx": "Deposit fee: 2.7%",
+        "conversion": "Conversion (FX): 2.5%"
+      },
+      "cta": "Choose Middle"
+    }
+  },
+  "referral": {
+    "title": "Gentlemen's Club",
+    "subtitle": "Good news spreads fast. Invite friends and get 0.5% from each of their deposits directly to your Platy wallet.",
+    "cta": "Get Link"
+  },
+  "faq": {
+    "title": "Questions & Answers",
+    "items": {
+      "q1": "How quickly will I get the card?",
+      "a1": "Instantly after account creation.",
+      "q2": "What are the limits?",
+      "a2": "We use the original provider limits without cutting them.",
+      "q3": "Where do the cards work?",
+      "a3": "Everywhere that accepts international payment systems.",
+      "q4": "Do you really not store data?",
+      "a4": "Our architecture is built on the principle of complete anonymity. We know nothing about you except your email."
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 PapasPay. All rights reserved.",
+    "links": {
+      "telegram": "Telegram Support",
+      "twitter": "Twitter",
+      "tos": "Terms of Service"
+    },
+    "status": {
+      "protected": "System: Protected",
+      "disabled": "Logs: Disabled"
+    }
+  }
+}

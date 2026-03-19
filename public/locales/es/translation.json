@@ -1,0 +1,100 @@
+{
+  "common": {
+    "language": "Idioma",
+    "english": "English",
+    "russian": "Русский",
+    "spanish": "Español"
+  },
+  "header": {
+    "brand": "PLATY",
+    "nav": {
+      "pricing": "Precios",
+      "security": "Seguridad",
+      "referral": "Recomendación",
+      "faq": "FAQ"
+    },
+    "login": "Iniciar sesión"
+  },
+  "hero": {
+    "title": "Banca que no hace preguntas.",
+    "subtitle": "Tarjetas virtuales instantáneas para compras globales. Sin KYC, sin espera, sin límites.",
+    "cta": "Obtener tarjeta por $5"
+  },
+  "privacy": {
+    "title": "La fintech más segura en tu bolsillo.",
+    "features": {
+      "zeroLogs": {
+        "title": "Cero Registros",
+        "description": "No mantenemos registros de actividad. Tus transacciones son tu vida privada. Punto."
+      },
+      "emailOnly": {
+        "title": "Solo Correo",
+        "description": "Olvida las fotos con tu pasaporte en la mano. Solo necesitamos tu correo para comenzar."
+      },
+      "protection": {
+        "title": "Protección 24/7",
+        "description": "Nuestro soporte funciona sin días libres ni festivos, protegiendo tu tranquilidad."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Elige tu nivel",
+    "base": {
+      "name": "Base",
+      "subtitle": "Perfecto para comenzar",
+      "price": "5",
+      "perIssue": "por emisión",
+      "features": {
+        "limit": "Límite: 2 tarjetas",
+        "commission": "Comisión de depósito: 3.0%",
+        "fx": "Conversión (FX): 2.5%",
+        "monthlyFee": "Cuota: $5 mensuales (cobrado el 1º)"
+      },
+      "cta": "Elegir Base"
+    },
+    "middle": {
+      "name": "Middle Game",
+      "subtitle": "Para los que juegan en grande",
+      "price": "20",
+      "perIssue": "por emisión",
+      "recommended": "Recomendado",
+      "features": {
+        "limit": "Límite: 10 tarjetas",
+        "commission": "Mantenimiento: $0 / mes",
+        "fx": "Comisión de depósito: 2.7%",
+        "conversion": "Conversión (FX): 2.5%"
+      },
+      "cta": "Elegir Middle"
+    }
+  },
+  "referral": {
+    "title": "Club de Caballeros",
+    "subtitle": "Las buenas noticias se propagan rápido. Invita amigos y obtén 0.5% de cada uno de sus depósitos directamente en tu billetera Platy.",
+    "cta": "Obtener Enlace"
+  },
+  "faq": {
+    "title": "Preguntas y Respuestas",
+    "items": {
+      "q1": "¿Qué tan rápido recibiré la tarjeta?",
+      "a1": "Al instante después de crear la cuenta.",
+      "q2": "¿Cuáles son los límites?",
+      "a2": "Usamos los límites originales del proveedor sin reducirlos.",
+      "q3": "¿Dónde funcionan las tarjetas?",
+      "a3": "En cualquier lugar que acepte sistemas de pago internacionales.",
+      "q4": "¿De verdad no almacenan datos?",
+      "a4": "Nuestra arquitectura está construida sobre el principio de anonimato total. No sabemos nada de ti excepto tu correo."
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 PapasPay. Todos los derechos reservados.",
+    "links": {
+      "telegram": "Soporte Telegram",
+      "twitter": "Twitter",
+      "tos": "Términos de Servicio"
+    },
+    "status": {
+      "protected": "Sistema: Protegido",
+      "disabled": "Registros: Deshabilitados"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "common": {
+    "language": "Taal",
+    "english": "English",
+    "russian": "Русский",
+    "spanish": "Español",
+    "dutch": "Nederlands",
+    "german": "Deutsch",
+    "italian": "Italiano",
+    "french": "Français"
+  },
+  "header": {
+    "brand": "PLATY",
+    "nav": {
+      "pricing": "Prijzen",
+      "security": "Veiligheid",
+      "referral": "Verwijzing",
+      "faq": "FAQ"
+    },
+    "login": "Inloggen"
+  },
+  "hero": {
+    "title": "Bankieren zonder vragen.",
+    "subtitle": "Instant virtuele kaarten voor wereldwijd winkelen. Zonder KYC, zonder wachten, zonder grenzen.",
+    "cta": "Kaart voor $5 ophalen"
+  },
+  "privacy": {
+    "title": "De veiligste fintech in je zak.",
+    "features": {
+      "zeroLogs": {
+        "title": "Nul logboeken",
+        "description": "We houden geen activiteitenlogboeken bij. Je transacties zijn je privéleven. Punt."
+      },
+      "emailOnly": {
+        "title": "Alleen e-mail",
+        "description": "Vergeet foto's met je paspoort in het zicht. We hebben alleen je e-mailadres nodig om te beginnen."
+      },
+      "protection": {
+        "title": "24/7 Beveiliging",
+        "description": "Onze ondersteuning werkt zonder vrije dagen of feestdagen, beschermend je gemoedsrust."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Kies je niveau",
+    "base": {
+      "name": "Base",
+      "subtitle": "Perfect voor een lichte start",
+      "price": "5",
+      "perIssue": "per uitgave",
+      "features": {
+        "limit": "Limiet: 2 kaarten",
+        "commission": "Stortingsvergoeding: 3,0%",
+        "fx": "Conversie (FX): 2,5%",
+        "monthlyFee": "Vergoeding: $5 per maand (afgeschreven op de 1e)"
+      },
+      "cta": "Kies Base"
+    },
+    "middle": {
+      "name": "Middle Game",
+      "subtitle": "Voor wie groot speelt",
+      "price": "20",
+      "perIssue": "per uitgave",
+      "recommended": "Aanbevolen",
+      "features": {
+        "limit": "Limiet: 10 kaarten",
+        "commission": "Onderhoud: $0 / mnd",
+        "fx": "Stortingsvergoeding: 2,7%",
+        "conversion": "Conversie (FX): 2,5%"
+      },
+      "cta": "Kies Middle"
+    }
+  },
+  "referral": {
+    "title": "Heren Club",
+    "subtitle": "Goed nieuws spreidt zich snel. Nodig vrienden uit en ontvang 0,5% van elk van hun stortingen rechtstreeks op je Platy-portemonnee.",
+    "cta": "Link ophalen"
+  },
+  "faq": {
+    "title": "Vragen en Antwoorden",
+    "items": {
+      "q1": "Hoe snel krijg ik de kaart?",
+      "a1": "Direct na het aanmaken van je account.",
+      "q2": "Wat zijn de limieten?",
+      "a2": "We gebruiken de originele leverancierslimieten zonder ze in te korten.",
+      "q3": "Waar werken de kaarten?",
+      "a3": "Overal waar internationale betalingssystemen worden geaccepteerd.",
+      "q4": "Slaan jullie echt geen gegevens op?",
+      "a4": "Onze architectuur is gebouwd op het principe van volledige anonimiteit. We weten niets van je behalve je e-mailadres."
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 PapasPay. Alle rechten voorbehouden.",
+    "links": {
+      "telegram": "Telegram-ondersteuning",
+      "twitter": "Twitter",
+      "tos": "Servicevoorwaarden"
+    },
+    "status": {
+      "protected": "Systeem: Beschermd",
+      "disabled": "Logboeken: Uitgeschakeld"
+    }
+  }
+}

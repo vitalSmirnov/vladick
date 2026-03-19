@@ -1,0 +1,104 @@
+{
+  "common": {
+    "language": "Lingua",
+    "english": "English",
+    "russian": "Русский",
+    "spanish": "Español",
+    "dutch": "Nederlands",
+    "german": "Deutsch",
+    "italian": "Italiano",
+    "french": "Français"
+  },
+  "header": {
+    "brand": "PLATY",
+    "nav": {
+      "pricing": "Prezzi",
+      "security": "Sicurezza",
+      "referral": "Referral",
+      "faq": "FAQ"
+    },
+    "login": "Accedi"
+  },
+  "hero": {
+    "title": "Banking senza domande.",
+    "subtitle": "Carte virtuali istantanee per lo shopping globale. Senza KYC, senza attese, senza limiti.",
+    "cta": "Ottieni carta per $5"
+  },
+  "privacy": {
+    "title": "La fintech più sicura in tasca.",
+    "features": {
+      "zeroLogs": {
+        "title": "Zero Log",
+        "description": "Non conserviamo registri attività. Le tue transazioni sono la tua vita privata. Punto."
+      },
+      "emailOnly": {
+        "title": "Solo email",
+        "description": "Dimentica foto con il passaporto in mano. Abbiamo bisogno solo della tua email per iniziare."
+      },
+      "protection": {
+        "title": "Protezione 24/7",
+        "description": "Il nostro supporto funziona senza giorni liberi né festivi, proteggendo la tua tranquillità."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Scegli il tuo livello",
+    "base": {
+      "name": "Base",
+      "subtitle": "Perfetto per un inizio leggero",
+      "price": "5",
+      "perIssue": "per emissione",
+      "features": {
+        "limit": "Limite: 2 carte",
+        "commission": "Commissione deposito: 3,0%",
+        "fx": "Conversione (FX): 2,5%",
+        "monthlyFee": "Canone: $5 al mese (addebitato l'1°)"
+      },
+      "cta": "Scegli Base"
+    },
+    "middle": {
+      "name": "Middle Game",
+      "subtitle": "Per chi gioca in grande",
+      "price": "20",
+      "perIssue": "per emissione",
+      "recommended": "Consigliato",
+      "features": {
+        "limit": "Limite: 10 carte",
+        "commission": "Manutenzione: $0 / mese",
+        "fx": "Commissione deposito: 2,7%",
+        "conversion": "Conversione (FX): 2,5%"
+      },
+      "cta": "Scegli Middle"
+    }
+  },
+  "referral": {
+    "title": "Club dei Gentiluomini",
+    "subtitle": "Le buone notizie si diffondono velocemente. Invita amici e ottieni lo 0,5% da ogni loro deposito direttamente nel tuo portafoglio Platy.",
+    "cta": "Ottieni Link"
+  },
+  "faq": {
+    "title": "Domande e Risposte",
+    "items": {
+      "q1": "Quanto velocemente otterrò la carta?",
+      "a1": "Istantaneamente dopo la creazione dell'account.",
+      "q2": "Quali sono i limiti?",
+      "a2": "Utilizziamo i limiti originali del fornitore senza tagliarli.",
+      "q3": "Dove funzionano le carte?",
+      "a3": "Ovunque i sistemi di pagamento internazionali siano accettati.",
+      "q4": "Non archiviate davvero i dati?",
+      "a4": "La nostra architettura è costruita sul principio dell'anonimato totale. Non sappiamo nulla di te se non la tua email."
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 PapasPay. Tutti i diritti riservati.",
+    "links": {
+      "telegram": "Supporto Telegram",
+      "twitter": "Twitter",
+      "tos": "Termini di servizio"
+    },
+    "status": {
+      "protected": "Sistema: Protetto",
+      "disabled": "Log: Disabilitati"
+    }
+  }
+}
