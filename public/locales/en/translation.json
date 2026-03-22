@@ -68,9 +68,36 @@
     }
   },
   "referral": {
-    "title": "Gentlemen's Club",
-    "subtitle": "Good news spreads fast. Invite friends and get 0.5% from each of their deposits directly to your Platy wallet.",
-    "cta": "Get Link"
+    "badge": "Partner Program",
+    "titleLine1": "Gentlemen's",
+    "titleLine2": "Club",
+    "subtitle": "Good news spreads fast. Share it and earn passive income.",
+    "metric": {
+      "value": "0.5%",
+      "prefix": "from",
+      "highlight": "every",
+      "suffix": "friend top-up",
+      "suffixLine2": "straight to your Platy wallet"
+    },
+    "benefits": {
+      "item1": "Lifetime payouts from referred users",
+      "item2": "Instant credit to your balance",
+      "item3": "No limits on the number of friends"
+    },
+    "buttons": {
+      "primary": "Get Link",
+      "copyTitle": "Copy promo code"
+    },
+    "image": {
+      "alt": "Gentleman Animal",
+      "captionLine1": "Welcome to",
+      "captionLine2": "the club."
+    },
+    "notifications": {
+      "label": "Deposit bonus",
+      "firstAmount": "+ 15.50 $",
+      "secondAmount": "+ 42.00 $"
+    }
   },
   "faq": {
     "title": "Questions & Answers",

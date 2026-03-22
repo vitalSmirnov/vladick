@@ -9,12 +9,14 @@ export function Hero() {
       <div className='relative z-10 w-full max-w-[1440px] mx-auto min-h-[calc(100dvh-200px)] flex flex-col-reverse md:flex-row items-center gap-12'>
         {/* Left Text Side */}
         <div className='flex-1 flex flex-col gap-6 max-w-2xl z-10'>
-          <h1 className='text-4xl md:text-6xl lg:text-7xl font-bold text-[#33312D] leading-[1.1] tracking-tight'>
+          <h1 className='scroll-up-title text-4xl md:text-6xl lg:text-7xl font-bold text-[#33312D] leading-[1.1] tracking-tight'>
             {t("hero.title")}
           </h1>
-          <p className='text-lg md:text-xl text-[#6E675E] leading-relaxed max-w-xl'>{t("hero.subtitle")}</p>
+          <p className='scroll-up-text text-lg md:text-xl text-[#6E675E] leading-relaxed max-w-xl'>
+            {t("hero.subtitle")}
+          </p>
 
-          <form className='flex flex-col sm:flex-row gap-4 mt-4 w-full max-w-lg'>
+          <form className='scroll-up-text flex flex-col sm:flex-row gap-4 mt-4 w-full max-w-lg'>
             <Input
               type='email'
               placeholder='Enter your email'
@@ -33,7 +35,7 @@ export function Hero() {
         {/* Right Visual Side */}
         <div className='flex-1 relative flex items-center justify-center min-h-[400px] md:min-h-[600px] w-full'>
           {/* Main Character */}
-          <div className='relative z-10 w-full max-w-[400px] rounded-[24px] overflow-hidden'>
+          <div className='scroll-up-card relative z-10 w-full max-w-[400px] rounded-[24px] overflow-hidden'>
             <img
               src={"/mock.png"}
               alt='Platy Card'

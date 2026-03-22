@@ -72,9 +72,36 @@
     }
   },
   "referral": {
-    "title": "Herrenclub",
-    "subtitle": "Gute Nachrichten verbreiten sich schnell. Lade Freunde ein und erhalte 0,5% von jeder ihrer Einzahlungen direkt auf dein Platy-Portemonnaie.",
-    "cta": "Link abrufen"
+    "badge": "Partnerprogramm",
+    "titleLine1": "Club der",
+    "titleLine2": "Gentlemen",
+    "subtitle": "Gute Nachrichten verbreiten sich schnell. Teile sie und erhalte passives Einkommen.",
+    "metric": {
+      "value": "0.5%",
+      "prefix": "von",
+      "highlight": "jeder",
+      "suffix": "Aufladung deiner Freunde",
+      "suffixLine2": "direkt auf dein Platy-Wallet"
+    },
+    "benefits": {
+      "item1": "Lebenslange Auszahlungen von geworbenen Nutzern",
+      "item2": "Sofortige Gutschrift auf dein Guthaben",
+      "item3": "Keine Limits bei der Anzahl deiner Freunde"
+    },
+    "buttons": {
+      "primary": "Link abrufen",
+      "copyTitle": "Promo-Code kopieren"
+    },
+    "image": {
+      "alt": "Gentleman",
+      "captionLine1": "Willkommen im",
+      "captionLine2": "Club."
+    },
+    "notifications": {
+      "label": "Einzahlungsbonus",
+      "firstAmount": "+ 15.50 $",
+      "secondAmount": "+ 42.00 $"
+    }
   },
   "faq": {
     "title": "Fragen und Antworten",

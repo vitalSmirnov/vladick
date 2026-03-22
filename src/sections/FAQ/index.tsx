@@ -30,7 +30,7 @@ export function FAQ() {
     >
       <div className='relative z-10 w-full max-w-[1440px] mx-auto'>
         <div className='max-w-3xl mx-auto'>
-          <h2 className='text-4xl md:text-5xl font-bold text-[#33312D] tracking-tight mb-12 text-center'>
+          <h2 className='scroll-up-title text-4xl md:text-5xl font-bold text-[#33312D] tracking-tight mb-12 text-center'>
             {t("faq.title")}
           </h2>
 
@@ -44,7 +44,7 @@ export function FAQ() {
               <AccordionItem
                 key={idx}
                 value={`item-${idx}`}
-                className='bg-[#FFE8CA] border border-[#998B79] rounded-[24px] overflow-hidden shadow-[0px_3px_0px_0px_#807465]'
+                className='scroll-up-card bg-[#FFE8CA] border border-[#998B79] rounded-[24px] overflow-hidden shadow-[0px_3px_0px_0px_#807465]'
               >
                 <AccordionTrigger className='w-full text-left px-8 py-6 h-auto text-xl font-bold text-[#33312D] hover:no-underline focus-visible:ring-0'>
                   {faq.q}

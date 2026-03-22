@@ -72,9 +72,36 @@
     }
   },
   "referral": {
-    "title": "Club dei Gentiluomini",
-    "subtitle": "Le buone notizie si diffondono velocemente. Invita amici e ottieni lo 0,5% da ogni loro deposito direttamente nel tuo portafoglio Platy.",
-    "cta": "Ottieni Link"
+    "badge": "Programma partner",
+    "titleLine1": "Club dei",
+    "titleLine2": "Gentiluomini",
+    "subtitle": "Le buone notizie si diffondono in fretta. Condividile e guadagna reddito passivo.",
+    "metric": {
+      "value": "0.5%",
+      "prefix": "da ogni",
+      "highlight": "ricarica",
+      "suffix": "dei tuoi amici",
+      "suffixLine2": "direttamente sul tuo wallet Platy"
+    },
+    "benefits": {
+      "item1": "Pagamenti a vita dagli utenti invitati",
+      "item2": "Accredito istantaneo sul tuo saldo",
+      "item3": "Nessun limite sul numero di amici"
+    },
+    "buttons": {
+      "primary": "Ottieni link",
+      "copyTitle": "Copia codice promo"
+    },
+    "image": {
+      "alt": "Gentiluomo",
+      "captionLine1": "Benvenuto nel",
+      "captionLine2": "club."
+    },
+    "notifications": {
+      "label": "Bonus deposito",
+      "firstAmount": "+ 15.50 $",
+      "secondAmount": "+ 42.00 $"
+    }
   },
   "faq": {
     "title": "Domande e Risposte",

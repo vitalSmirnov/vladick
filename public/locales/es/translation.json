@@ -68,9 +68,36 @@
     }
   },
   "referral": {
-    "title": "Club de Caballeros",
-    "subtitle": "Las buenas noticias se propagan rápido. Invita amigos y obtén 0.5% de cada uno de sus depósitos directamente en tu billetera Platy.",
-    "cta": "Obtener Enlace"
+    "badge": "Programa de socios",
+    "titleLine1": "Club de",
+    "titleLine2": "Caballeros",
+    "subtitle": "Las buenas noticias se propagan rápido. Compártelas y gana ingresos pasivos.",
+    "metric": {
+      "value": "0.5%",
+      "prefix": "de cada",
+      "highlight": "recarga",
+      "suffix": "de tus amigos",
+      "suffixLine2": "directo a tu billetera Platy"
+    },
+    "benefits": {
+      "item1": "Pagos de por vida por usuarios referidos",
+      "item2": "Acreditación instantánea a tu saldo",
+      "item3": "Sin límites en la cantidad de amigos"
+    },
+    "buttons": {
+      "primary": "Obtener enlace",
+      "copyTitle": "Copiar código promocional"
+    },
+    "image": {
+      "alt": "Caballero",
+      "captionLine1": "Bienvenido al",
+      "captionLine2": "club."
+    },
+    "notifications": {
+      "label": "Bono de depósito",
+      "firstAmount": "+ 15.50 $",
+      "secondAmount": "+ 42.00 $"
+    }
   },
   "faq": {
     "title": "Preguntas y Respuestas",

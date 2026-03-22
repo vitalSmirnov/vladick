@@ -72,9 +72,36 @@
     }
   },
   "referral": {
-    "title": "Club des Gentilshommes",
-    "subtitle": "Les bonnes nouvelles se répandent vite. Invitez des amis et obtenez 0,5% de chacun de leurs dépôts directement sur votre portefeuille Platy.",
-    "cta": "Obtenir le lien"
+    "badge": "Programme partenaire",
+    "titleLine1": "Club des",
+    "titleLine2": "Gentilshommes",
+    "subtitle": "Les bonnes nouvelles se propagent vite. Partage-les et gagne un revenu passif.",
+    "metric": {
+      "value": "0.5%",
+      "prefix": "de chaque",
+      "highlight": "recharge",
+      "suffix": "de tes amis",
+      "suffixLine2": "directement sur ton portefeuille Platy"
+    },
+    "benefits": {
+      "item1": "Paiements a vie des utilisateurs parraines",
+      "item2": "Creditation instantanee sur ton solde",
+      "item3": "Aucune limite sur le nombre d'amis"
+    },
+    "buttons": {
+      "primary": "Obtenir le lien",
+      "copyTitle": "Copier le code promo"
+    },
+    "image": {
+      "alt": "Gentleman",
+      "captionLine1": "Bienvenue dans le",
+      "captionLine2": "club."
+    },
+    "notifications": {
+      "label": "Bonus de depot",
+      "firstAmount": "+ 15.50 $",
+      "secondAmount": "+ 42.00 $"
+    }
   },
   "faq": {
     "title": "Questions et Réponses",

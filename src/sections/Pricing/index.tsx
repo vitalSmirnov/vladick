@@ -12,12 +12,14 @@ export function Pricing() {
       <div className='relative z-10 w-full max-w-[1440px] mx-auto'>
         <div className='max-w-7xl mx-auto'>
           <div className='text-center mb-16'>
-            <h2 className='text-4xl md:text-5xl font-bold text-[#33312D] tracking-tight'>{t("pricing.title")}</h2>
+            <h2 className='scroll-up-title text-4xl md:text-5xl font-bold text-[#33312D] tracking-tight'>
+              {t("pricing.title")}
+            </h2>
           </div>
 
           <div className='grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto'>
             {/* Card 1: BASE */}
-            <div className='relative bg-gradient-to-br from-[#FFE8CA] to-[#E5D5C5] border border-[#998B79] rounded-[24px] p-8 shadow-[0px_8px_0px_0px_#807465] flex flex-col gap-6 transition-transform duration-200 hover:-translate-y-2'>
+            <div className='scroll-up-card relative bg-gradient-to-br from-[#FFE8CA] to-[#E5D5C5] border border-[#998B79] rounded-[24px] p-8 shadow-[0px_8px_0px_0px_#807465] flex flex-col gap-6 transition-transform duration-200 hover:-translate-y-2'>
               <div className='flex flex-col gap-2'>
                 <span className='text-sm font-bold text-[#6E675E] uppercase tracking-widest'>
                   {t("pricing.base.name")}
@@ -45,7 +47,7 @@ export function Pricing() {
             </div>
 
             {/* Card 2: MIDDLE GAME */}
-            <div className='relative bg-[#33312D] border border-[#1A1917] rounded-[24px] p-8 shadow-[0px_8px_0px_0px_#1A1917] flex flex-col gap-6 overflow-hidden transition-transform duration-200 hover:-translate-y-2'>
+            <div className='scroll-up-card relative bg-[#33312D] border border-[#1A1917] rounded-[24px] p-8 shadow-[0px_8px_0px_0px_#1A1917] flex flex-col gap-6 overflow-hidden transition-transform duration-200 hover:-translate-y-2'>
               <div className='absolute top-4 right-4 bg-gradient-to-r from-[#ffe76f] to-[#ffda33] text-[#47401f] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide'>
                 {t("pricing.middle.recommended")}
               </div>

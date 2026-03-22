@@ -30,14 +30,16 @@ export function Privacy() {
       <div className='relative z-10 w-full max-w-[1440px] mx-auto'>
         <div className='max-w-7xl mx-auto'>
           <div className='text-center mb-16'>
-            <h2 className='text-4xl md:text-5xl font-bold text-[#33312D] tracking-tight'>{t("privacy.title")}</h2>
+            <h2 className='scroll-up-title text-4xl md:text-5xl font-bold text-[#33312D] tracking-tight'>
+              {t("privacy.title")}
+            </h2>
           </div>
 
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
             {features.map((feature, idx) => (
               <div
                 key={idx}
-                className='bg-[#FFE8CA] border border-[#998B79] rounded-[24px] p-8 shadow-[0px_4px_0px_0px_#807465] flex flex-col gap-4 hover:-translate-y-1 transition-transform'
+                className='scroll-up-card bg-[#FFE8CA] border border-[#998B79] rounded-[24px] p-8 shadow-[0px_4px_0px_0px_#807465] flex flex-col gap-4 hover:-translate-y-1 transition-transform'
               >
                 <div className='w-16 h-16 bg-[#FFF6EB] border border-[#998B79] rounded-[16px] flex items-center justify-center shadow-[0px_2px_0px_0px_#807465]'>
                   {feature.icon}

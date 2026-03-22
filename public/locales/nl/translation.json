@@ -72,9 +72,36 @@
     }
   },
   "referral": {
-    "title": "Heren Club",
-    "subtitle": "Goed nieuws spreidt zich snel. Nodig vrienden uit en ontvang 0,5% van elk van hun stortingen rechtstreeks op je Platy-portemonnee.",
-    "cta": "Link ophalen"
+    "badge": "Partnerprogramma",
+    "titleLine1": "Heren",
+    "titleLine2": "Club",
+    "subtitle": "Goed nieuws verspreidt zich snel. Deel het en verdien passief inkomen.",
+    "metric": {
+      "value": "0.5%",
+      "prefix": "van",
+      "highlight": "elke",
+      "suffix": "opwaardering van je vrienden",
+      "suffixLine2": "direct naar je Platy-wallet"
+    },
+    "benefits": {
+      "item1": "Levenslange uitbetalingen van aangedragen gebruikers",
+      "item2": "Directe bijschrijving op je saldo",
+      "item3": "Geen limiet op het aantal vrienden"
+    },
+    "buttons": {
+      "primary": "Link ophalen",
+      "copyTitle": "Promocode kopieren"
+    },
+    "image": {
+      "alt": "Gentleman",
+      "captionLine1": "Welkom bij de",
+      "captionLine2": "club."
+    },
+    "notifications": {
+      "label": "Stortingsbonus",
+      "firstAmount": "+ 15.50 $",
+      "secondAmount": "+ 42.00 $"
+    }
   },
   "faq": {
     "title": "Vragen en Antwoorden",

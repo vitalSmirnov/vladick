@@ -4,6 +4,42 @@
 @import "tw-animate-css";
 
 @layer utilities {
+  @keyframes scroll-slide-up {
+    from {
+      opacity: 0;
+      transform: translateY(48px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .scroll-up-title,
+  .scroll-up-text,
+  .scroll-up-card {
+    opacity: 0;
+    will-change: transform, opacity;
+    animation-name: scroll-slide-up;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    animation-timeline: view();
+  }
+
+  .scroll-up-title {
+    animation-range: entry 0% cover 35%;
+  }
+
+  .scroll-up-text {
+    animation-range: entry 5% cover 40%;
+  }
+
+  .scroll-up-card {
+    animation-range: entry 10% cover 45%;
+  }
+
   .section-dots-bg {
     position: relative;
     isolation: isolate;
@@ -23,5 +59,25 @@
     mask-size: 6px 6px;
     -webkit-mask-position: center;
     mask-position: center;
+  }
+
+  @supports not (animation-timeline: view()) {
+    .scroll-up-title,
+    .scroll-up-text,
+    .scroll-up-card {
+      opacity: 1;
+      transform: none;
+      animation: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .scroll-up-title,
+    .scroll-up-text,
+    .scroll-up-card {
+      opacity: 1;
+      transform: none;
+      animation: none;
+    }
   }
 }
