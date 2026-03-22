@@ -1,0 +1,27 @@
+@import "tailwindcss" source(none);
+@source '../../../**/*.{js,ts,jsx,tsx}';
+
+@import "tw-animate-css";
+
+@layer utilities {
+  .section-dots-bg {
+    position: relative;
+    isolation: isolate;
+  }
+
+  .section-dots-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.05;
+    background-image: linear-gradient(135deg, #ff734e 0%, #ff734e 90%, #ff8d6f 100%);
+    -webkit-mask-image: radial-gradient(circle, #000 56%, transparent 58%);
+    mask-image: radial-gradient(circle, #000 56%, transparent 58%);
+    -webkit-mask-size: 6px 6px;
+    mask-size: 6px 6px;
+    -webkit-mask-position: center;
+    mask-position: center;
+  }
+}

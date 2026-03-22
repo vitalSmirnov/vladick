@@ -1,0 +1,7 @@
+export { FAQ } from "./FAQ"
+export { Footer } from "./Footer"
+export { Header } from "./Header"
+export { Hero } from "./Hero"
+export { Pricing } from "./Pricing"
+export { Privacy } from "./Privacy"
+export { Referral } from "./Referral"

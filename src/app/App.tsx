@@ -1,10 +1,4 @@
-import { Header } from "./components/Header"
-import { Hero } from "./components/Hero"
-import { Privacy } from "./components/Privacy"
-import { Pricing } from "./components/Pricing"
-import { Referral } from "./components/Referral"
-import { FAQ } from "./components/FAQ"
-import { Footer } from "./components/Footer"
+import { FAQ, Footer, Header, Hero, Pricing, Privacy, Referral } from "sections"
 
 export default function App() {
   return (
@@ -12,6 +6,7 @@ export default function App() {
       <Header />
       <main>
         <Hero />
+        {/* <Divider /> */}
         <Privacy />
         <Pricing />
         <Referral />
