@@ -6,7 +6,7 @@ export function Hero() {
 
   return (
     <section className='section-dots-bg w-full bg-[#F5F5DC] min-h-[calc(100dvh-200px)] px-6 md:px-12 py-12 overflow-hidden'>
-      <div className='relative z-10 w-full max-w-[1440px] mx-auto min-h-[calc(100dvh-200px)] flex flex-col-reverse md:flex-row items-center gap-12'>
+      <div className='relative z-15 w-full max-w-[1440px] mx-auto min-h-[calc(100dvh-200px)] flex flex-col-reverse md:flex-row items-center gap-12'>
         {/* Left Text Side */}
         <div className='flex-1 flex flex-col gap-6 max-w-2xl z-10'>
           <h1 className='scroll-up-title text-4xl md:text-6xl lg:text-7xl font-bold text-[#33312D] leading-[1.1] tracking-tight'>
@@ -24,6 +24,7 @@ export function Hero() {
               required
             />
             <Button
+              variant='yellow'
               type='submit'
               className='font-bold text-lg px-8 py-4 h-auto rounded-[24px] transition-all whitespace-nowrap'
             >
@@ -47,7 +48,7 @@ export function Hero() {
           <FloatingIcon
             src='/logos/Netflix_Symbol_RGB.png'
             alt='Netflix'
-            className='absolute top-[15%] left-0 md:left-[-5%] bg-white p-4 rounded-2xl shadow-lg border border-[#998B79]/20'
+            className='absolute z-10 top-[15%] left-0 md:left-[-5%] bg-white p-4 rounded-2xl shadow-lg border border-[#998B79]/20'
             delay={0}
           />
           <FloatingIcon
@@ -82,7 +83,7 @@ function FloatingIcon({ src, alt, className, delay }: { src: string; alt: string
       <img
         src={src}
         alt={alt}
-        className='w-8 h-8 object-contain'
+        className='w-14 h-14 object-contain'
       />
     </div>
   )

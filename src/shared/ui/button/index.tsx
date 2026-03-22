@@ -1,6 +1,6 @@
 import { type ComponentPropsWithoutRef, type ReactNode } from "react"
 
-type ButtonVariant = "primary" | "secondary" | "link" | "gradient"
+type ButtonVariant = "primary" | "secondary" | "link" | "gradient" | "red" | "yellow"
 
 const variantStyles: Record<ButtonVariant, string> = {
   primary:
@@ -10,6 +10,9 @@ const variantStyles: Record<ButtonVariant, string> = {
   link: "border-0 shadow-none font-medium text-black hover:bg-black/5 active:translate-y-0",
   gradient:
     "bg-gradient-to-b from-[#FF734E] to-[#FF8D6F] border border-[#B2634E] text-[#47281F] font-semibold shadow-[0px_3px_0px_rgba(102,57,45,1)] hover:bg-[linear-gradient(to_bottom,rgba(255,255,255,0.42)_0%,#FF8D6F_52%,#F57758_100%)] active:shadow-none active:translate-y-0.5",
+  red: "h-auto rounded-[24px] px-8 py-4 border-2 border-[var(--destructive)] bg-[var(--destructive)] text-[white] font-bold text-xl shadow-[0px_4px_0px_0px_#66392d] hover:bg-[linear-gradient(to_bottom,rgba(255,255,255,0.45)_0%,var(--destructive)_52%,var(--destructive)_100%)] active:translate-y-[4px] active:shadow-none",
+  yellow:
+    "bg-[var(--chart-4)] border border-[var(--chart-4)] text-[#47401F] font-semibold shadow-[0px_3px_0px_rgba(102,93,45,1)] hover:brightness-95 active:shadow-none active:translate-y-0.5",
 }
 
 const baseStyles =
