@@ -44,6 +44,7 @@
   }
 
   .section-dots-bg::before {
+    box-sizing: border-box;
     content: "";
     position: absolute;
     inset: 0;

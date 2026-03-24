@@ -16,7 +16,7 @@ const variantStyles: Record<ButtonVariant, string> = {
 }
 
 const baseStyles =
-  "flex items-center justify-center gap-2 w-full h-[58px] rounded-full text-xl transition-all duration-200 ease-out"
+  "box-border flex items-center justify-center gap-2 w-full h-[58px] rounded-full text-xl transition-all duration-200 ease-out"
 
 type ButtonAsButton = ComponentPropsWithoutRef<"button"> & { href?: never }
 
