@@ -99,6 +99,11 @@
       "secondAmount": "+ 42.00 $"
     }
   },
+  "mobileBanner": {
+    "openInApp": "Открыть в приложении PLATY",
+    "open": "ОТКРЫТЬ",
+    "closeAria": "Закрыть баннер"
+  },
   "faq": {
     "title": "Ответы на вопросы",
     "items": {

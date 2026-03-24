@@ -103,6 +103,11 @@
       "secondAmount": "+ 42.00 $"
     }
   },
+  "mobileBanner": {
+    "openInApp": "Apri nell'app PLATY",
+    "open": "APRI",
+    "closeAria": "Chiudi banner"
+  },
   "faq": {
     "title": "Domande e Risposte",
     "items": {

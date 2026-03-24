@@ -39,7 +39,12 @@ export function Header() {
         {/* Action */}
         <div className='flex items-center gap-4'>
           <LanguageSwitcher />
-          <Button className='font-semibold px-6 py-2 rounded-[24px] transition-all'>Get the app</Button>
+          <Button
+            variant='red'
+            className='hidden md:block'
+          >
+            Get the app
+          </Button>
         </div>
       </div>
     </header>
