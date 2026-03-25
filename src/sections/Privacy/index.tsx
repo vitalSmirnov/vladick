@@ -1,8 +1,45 @@
+import { useEffect, useRef, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { EyeOffIcon, MailIcon, ShieldCheckIcon } from "shared"
 
 export function Privacy() {
   const { t } = useTranslation()
+  const cardRefs = useRef<Array<HTMLDivElement | null>>([])
+  const [visibleCards, setVisibleCards] = useState([false, false, false])
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return
+
+          const indexValue = (entry.target as HTMLElement).dataset.cardIndex
+          const index = Number(indexValue)
+          if (Number.isNaN(index)) return
+
+          setVisibleCards(prev => {
+            if (prev[index]) return prev
+
+            return prev.map((isVisible, idx) => (idx === index ? true : isVisible))
+          })
+
+          observer.unobserve(entry.target)
+        })
+      },
+      {
+        threshold: 0.15,
+        rootMargin: "0px 0px 4% 0px",
+      }
+    )
+
+    cardRefs.current.forEach(card => {
+      if (card) observer.observe(card)
+    })
+
+    return () => {
+      observer.disconnect()
+    }
+  }, [])
 
   const features = [
     {
@@ -25,11 +62,13 @@ export function Privacy() {
   return (
     <section
       id='security'
-      className='w-full bg-[#FFF6EB] py-24 px-6 md:px-12 border-t border-[#998B79] relative overflow-hidden'
+      className='w-full bg-[#FFF6EB] py-24 px-6 md:px-12 md:py-36 border-t border-[#998B79] relative overflow-hidden'
     >
       <div className='max-w-7xl mx-auto relative'>
-        <div className='text-center mb-16 md:mb-28 relative z-10'>
-          <h2 className='text-4xl md:text-5xl font-bold text-[#33312D] tracking-tight'>{t("privacy.title")}</h2>
+        <div className='text-center z-10'>
+          <h2 className='text-4xl md:text-5xl mb-24 md:mb-36 font-bold text-[#33312D] tracking-tight'>
+            {t("privacy.title")}
+          </h2>
         </div>
 
         <div className='relative mt-12 mb-12'>
@@ -179,7 +218,13 @@ export function Privacy() {
                   key={idx}
                   className={`relative ${yOffset} ${rotateClass}`}
                 >
-                  <div className='bg-[#FFE8CA] border-2 border-[#33312D] rounded-[24px] p-8 shadow-[0px_8px_0px_0px_#33312D] flex flex-col gap-4 hover:-translate-y-2 hover:shadow-[0px_12px_0px_0px_#33312D] transition-all duration-300 h-full group'>
+                  <div
+                    ref={element => {
+                      cardRefs.current[idx] = element
+                    }}
+                    data-card-index={idx}
+                    className={`privacy-pop-card privacy-pop-card-${idx + 1} ${visibleCards[idx] ? "is-visible" : ""} bg-[#FFE8CA] border-2 border-[#33312D] rounded-[24px] p-8 shadow-[0px_8px_0px_0px_#33312D] flex flex-col gap-4 hover:-translate-y-2 hover:shadow-[0px_12px_0px_0px_#33312D] transition-all duration-300 h-full group`}
+                  >
                     {/* Realistic Leather Craft Strap hanging from the rope (Now visible on both Mobile and Desktop) */}
                     <div className='absolute -top-[34px] left-1/2 -translate-x-1/2 w-6 h-[40px] flex flex-col items-center z-[-1]'>
                       {/* Loop passing over the rope */}

@@ -5,12 +5,10 @@ export function Hero() {
   const { t } = useTranslation()
 
   return (
-    <section className='section-dots-bg w-full bg-[#F5F5DC] px-0 md:px-12 pt-12 md:pb-10 md:py-12 overflow-visible md:overflow-hidden'>
-      <div className='relative z-15 w-full max-w-[1440px] mx-auto flex flex-col-reverse md:flex-row items-center gap-12 md:pb-16 sm:pb-12 md:pb-0 md:min-h-[calc(100dvh-200px)]'>
+    <section className='section-dots-bg w-full md:min-h-full min-h-[100dvh] bg-[#F5F5DC] px-8 py-12 md:px-16 md:py-24 overflow-visible md:overflow-hidden'>
+      <div className='relative z-15 w-full max-w-[1440px] mx-auto flex flex-col-reverse md:flex-row items-center gap-12 md:pb-16 sm:pb-12 md:pb-0'>
         {/* Left Text Side */}
-        <div className='relative flex-1 flex flex-col md:gap-6 max-w-2xl w-full z-20 -mt-28 sm:-mt-24 md:mt-0 pt-[50px] md:pt-0 py-6 px-6 sm:px-8 md:px-0'>
-          <div className='absolute inset-x-0 -top-[50px] bottom-[-5%] bg-gradient-to-t from-white from-45% via-white/95 via-70% to-transparent md:hidden pointer-events-none z-0' />
-
+        <div className='hero-initial-left relative flex-1 flex flex-col md:gap-6 max-w-2xl w-full z-20 -mt-28 sm:-mt-24 md:mt-0 pt-[50px] md:pt-0 py-6 px-6 sm:px-8 md:px-0 ml-auto md:text-left'>
           <h1 className='relative z-10 scroll-up-title text-4xl md:text-6xl lg:text-7xl font-bold text-[#33312D] leading-[1.1] tracking-tight'>
             {t("hero.title")}
           </h1>
@@ -36,13 +34,13 @@ export function Hero() {
         </div>
 
         {/* Right Visual Side */}
-        <div className='flex-1 relative flex items-center justify-center min-h-[400px] md:min-h-[600px] w-full'>
+        <div className='hero-initial-right flex-1 relative flex items-center justify-center min-h-[260px] sm:min-h-[320px] md:min-h-[600px] w-full'>
           {/* Main Character */}
-          <div className='scroll-up-card relative z-10 w-full max-w-[400px] rounded-[24px] overflow-hidden'>
+          <div className='scroll-up-card relative z-10 w-full max-w-[400px] h-[460px] sm:h-[280px] md:h-auto rounded-[24px] overflow-hidden'>
             <img
               src={"/mock.png"}
               alt='Platy Card'
-              className='w-full h-auto object-contain'
+              className='w-full h-full md:h-auto object-cover object-top md:object-contain [mask-image:linear-gradient(to_top,transparent_15px,black_120px,black_100%)] md:[mask-image:none]'
             />
           </div>
 
