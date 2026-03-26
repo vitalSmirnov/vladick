@@ -46,28 +46,25 @@ export function Hero() {
 
           {/* Floating Icons */}
           <FloatingIcon
-            src='/logos/Netflix_Symbol_RGB.png'
-            alt='Netflix'
+            src='/logos/1.svg'
+            alt='icon'
             className='absolute z-10 top-[15%] left-0 md:left-[-5%] bg-white p-4 rounded-2xl shadow-lg border border-[#998B79]/20'
             delay={0}
           />
           <FloatingIcon
-            src='/logos/spotify.png'
-            alt='Spotify'
+            src='/logos/2.svg'
+            alt='icon2'
             className='absolute bottom-[22%] md:bottom-[-10%] left-[0%] md:left-[+10%] bg-white p-4 rounded-2xl shadow-lg border border-[#998B79]/20 z-10'
             delay={1.5}
           />
           <FloatingIcon
-            src='/logos/OpenAI-white-monoblossom.svg'
-            alt='OpenAI'
+            src='/logos/3.svg'
+            alt='icon3'
             className='absolute top-[25%] right-[3%] md:right-[-15%] xl:right-[5%] bg-white p-4 rounded-2xl shadow-lg border border-[#998B79]/20 z-10'
             delay={0.8}
           />
 
-          {/* Background decorative blob */}
           <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] bg-[#FF7F50]/10 rounded-full blur-[80px] -z-10' />
-
-          {/* Mobile readability fade for overlapping text */}
         </div>
       </div>
     </section>
